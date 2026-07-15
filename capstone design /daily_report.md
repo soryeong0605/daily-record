@@ -4,14 +4,14 @@
 조교님께 whole body control과 관련된 코드와 예제 코드를 받았다. 빠른 시일 내에 잘 구동되는지 확인하고 공부해보고 싶다..!
 **7월 15일**  
 처음으로 ros를 이용해서 카트팬듈럼 역진자 모델을 구상해보았다. 내가 한건 하나도 없고 클로드가 하라는 대로 했지만 그래도 가제보 상에서 역진자 모델이 보이도록 하기는 했다.  
-1. ROS2 워크스페이스 + 패키지 생성  
-2. 카트-펜듈럼 URDF 작성 및 검증 (check_urdf)  
-3. RViz로 로봇 모델 확인 (링크/조인트 구조 검증)  
-4. Gazebo + ros2_control 연결 (factory 플러그인, yaml 경로, URDF 파싱, 문법 에러 등 여러 삽질 극복!)  
-5. 컨트롤러 활성화 확인 (joint_state_broadcaster, cart_effort_controller)  
-6. cart_joint 높이/충돌 문제 발견, damping 필요성 확인  
+1.ROS2 워크스페이스 + 패키지 생성  
+2.카트-펜듈럼 URDF 작성 및 검증 (check_urdf)  
+3.RViz로 로봇 모델 확인 (링크/조인트 구조 검증)  
+4.Gazebo + ros2_control 연결 (factory 플러그인, yaml 경로, URDF 파싱, 문법 에러 등 여러 삽질 극복!)  
+5.컨트롤러 활성화 확인 (joint_state_broadcaster, cart_effort_controller)  
+6.cart_joint 높이/충돌 문제 발견, damping 필요성 확인  
 이런것들을 하였다. 사실 내가 한건 하나도 없고 클로드가 하라는대로 했지만 xml파일이 txt파일 같은 것이라고 한다. 윈도우 환경처럼 뭔가 파일에 들어가서 하는 것이 아니라 계속해서 터미널서 조작해야하고 터미널에서 어떤 파일에 들어서 또 코드를 고쳐야하고 그리고 클론? clone이라는 것이 임의로 만든 파이썬 코드도 있고 해서 생각보다 복잡한 것 같다.  
-내일은 아래의 것을 해볼 것이다.
+내일은 아래의 것을 해볼 것이다.  
 1.URDF에 damping 추가  
 2.작은 힘으로 카트 부드럽게 움직이는지 재확인  
 3.그 다음 진짜 목표인 LQR/PID 컨트롤 노드 작성 (pole 세우기)  
