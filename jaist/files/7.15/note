@@ -1,1 +1,181 @@
+그때 franka 구동할 때 다른 연구실분이 도와준 흔적 터미널  
 
+[Main] Franka velocity thread died.
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ python3 spm_faster.py 
+[Main] Waiting for SpaceMouse...
+SpaceMouseCompact found
+[SpaceMouse] ('opening', 1783663342.4721396)
+[SpaceMouse] ('connected', 1783663342.4883647)
+[FrankaController] Collision behavior set
+[FrankaController] Robot connected: 172.16.0.2
+[FrankaController] Starting native Cartesian velocity control...
+[FrankaController] Native Cartesian velocity servo started
+[FrankaController] Native velocity loop exception: libfranka: Move command rejected: command not possible in the current mode ("Reflex")!
+[Main] Teleop running
+[FrankaController] Force stop requested
+Exception in thread Thread-1 (_velocity_loop):
+[Main] linear_speed=0.08, z_speed=0.06, yaw_speed=0.25, transition_up=0.5, transition_down=0.6
+Traceback (most recent call last):
+[Main] Press Ctrl+C to stop
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+
+    self.run()
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/holabrb/dtanrb/code/rebuild/franka_cosine.py", line 322, in _velocity_loop
+    active = self.robot.start_cartesian_velocity_control(controller_mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pylibfranka._pylibfranka.ControlException: libfranka: Move command rejected: command not possible in the current mode ("Reflex")!
+[Main] Franka velocity thread died.
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ python3 spm_faster.py 
+[Main] Waiting for SpaceMouse...
+SpaceMouseCompact found
+[SpaceMouse] ('opening', 1783663519.3599951)
+[SpaceMouse] ('connected', 1783663519.3764281)
+[FrankaController] Collision behavior set
+[FrankaController] Robot connected: 172.16.0.2
+[FrankaController] Starting native Cartesian velocity control...
+[FrankaController] Native Cartesian velocity servo started
+[Main] Teleop running
+[FrankaController] Native Cartesian velocity control is active
+[Main] linear_speed=0.06, z_speed=0.06, yaw_speed=0.25, transition_up=0.8, transition_down=1.0
+[FrankaController] Raised-cosine velocity smoother is enabled
+[Main] Press Ctrl+C to stop
+
+[FrankaController] Native velocity loop exception: libfranka: Move command aborted: motion aborted by reflex! ["cartesian_motion_generator_joint_acceleration_discontinuity"]
+[FrankaController] Force stop requested
+Exception in thread Thread-1 (_velocity_loop):
+Traceback (most recent call last):
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/holabrb/dtanrb/code/rebuild/franka_cosine.py", line 327, in _velocity_loop
+    state, duration = active.readOnce()
+                      ^^^^^^^^^^^^^^^^^
+pylibfranka._pylibfranka.ControlException: libfranka: Move command aborted: motion aborted by reflex! ["cartesian_motion_generator_joint_acceleration_discontinuity"]
+[Main] Franka velocity thread died.
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ python spacemouse_cosine.py 
+[Main] Waiting for SpaceMouse...
+SpaceMouseCompact found
+[SpaceMouse] ('opening', 1783663554.0133765)
+[SpaceMouse] ('connected', 1783663554.0402772)
+[FrankaController] Collision behavior set
+[FrankaController] Robot connected: 172.16.0.2
+[FrankaController] Starting native Cartesian velocity control...
+[FrankaController] Native Cartesian velocity servo started
+[FrankaController] Native velocity loop exception: libfranka: Move command rejected: command not possible in the current mode ("Reflex")!
+[Main] Teleop running with native Cartesian velocity + cosine smoother
+[FrankaController] Force stop requested
+Exception in thread Thread-1 (_velocity_loop):
+[Main] Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+
+    self.run()
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/holabrb/dtanrb/code/rebuild/franka_cosine.py", line 322, in _velocity_loop
+    active = self.robot.start_cartesian_velocity_control(controller_mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pylibfranka._pylibfranka.ControlException: libfranka: Move command rejected: command not possible in the current mode ("Reflex")!
+[Main] Franka velocity thread died.
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ python spacemouse_cosine.py 
+[Main] Waiting for SpaceMouse...
+SpaceMouseCompact found
+[SpaceMouse] ('opening', 1783663559.4753945)
+[SpaceMouse] ('connected', 1783663559.5005128)
+[FrankaController] Collision behavior set
+[FrankaController] Robot connected: 172.16.0.2
+[FrankaController] Starting native Cartesian velocity control...
+[FrankaController] Native Cartesian velocity servo started
+[FrankaController] Native Cartesian velocity control is active
+[Main] Teleop running with native Cartesian velocity + cosine smoother
+[FrankaController] Raised-cosine velocity smoother is enabled
+[Main] Press Ctrl+C to stop
+
+^C
+[Main] Stopping...
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ ^C
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ ^C
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ 
+ *  History restored 
+
+(base) holabrb@franka:~/dtanrb/code/rebuild$  conda activate franka12
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ 
+ *  History restored 
+
+(base) holabrb@franka:~/dtanrb/code/rebuild$  conda activate franka12
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ ls
+franka_cosine.py  franka_slow.py  inspect_.py  note.txt  __pycache__  spacemouse_cosine.py  spacemouse_slow.py  spm_faster.py
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ ros2 topic echo /joint_states --once^C
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ ^C
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ python spacemouse_cosine.py 
+[Main] Waiting for SpaceMouse...
+SpaceMouseWirelessNew found
+[SpaceMouse] ('opening', 1783991754.2015653)
+[SpaceMouse] ('connected', 1783991754.2225826)
+[FrankaController] Collision behavior set
+[FrankaController] Robot connected: 172.16.0.2
+[FrankaController] Starting native Cartesian velocity control...
+[FrankaController] Native Cartesian velocity servo started
+[FrankaController] Native Cartesian velocity control is active
+[Main] Teleop running with native Cartesian velocity + cosine smoother
+[Main] Press Ctrl+C to stop
+[FrankaController] Raised-cosine velocity smoother is enabled
+
+[FrankaController] Native velocity loop exception: libfranka: Move command aborted: motion aborted by reflex! ["cartesian_motion_generator_velocity_discontinuity", "cartesian_motion_generator_acceleration_discontinuity", "cartesian_motion_generator_joint_acceleration_discontinuity"]
+[FrankaController] Force stop requested
+Exception in thread Thread-1 (_velocity_loop):
+Traceback (most recent call last):
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/holabrb/dtanrb/code/rebuild/franka_cosine.py", line 327, in _velocity_loop
+    state, duration = active.readOnce()
+                      ^^^^^^^^^^^^^^^^^
+pylibfranka._pylibfranka.ControlException: libfranka: Move command aborted: motion aborted by reflex! ["cartesian_motion_generator_velocity_discontinuity", "cartesian_motion_generator_acceleration_discontinuity", "cartesian_motion_generator_joint_acceleration_discontinuity"]
+[Main] Franka velocity thread died.
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$ python spacemouse_cosine.py 
+[Main] Waiting for SpaceMouse...
+SpaceMouseWirelessNew found
+[SpaceMouse] ('opening', 1783991858.0620594)
+[SpaceMouse] ('connected', 1783991858.0797539)
+[FrankaController] Collision behavior set
+[FrankaController] Robot connected: 172.16.0.2
+[FrankaController] Starting native Cartesian velocity control...
+[FrankaController] Native Cartesian velocity servo started
+[Main] Teleop running with native Cartesian velocity + cosine smoother
+[Main] Press Ctrl+C to stop
+[FrankaController] Native Cartesian velocity control is active
+
+[FrankaController] Raised-cosine velocity smoother is enabled
+[FrankaController] Native velocity loop exception: libfranka: Move command aborted: motion aborted by reflex! ["cartesian_motion_generator_acceleration_discontinuity", "cartesian_motion_generator_joint_acceleration_discontinuity"]
+[FrankaController] Force stop requested
+Exception in thread Thread-1 (_velocity_loop):
+Traceback (most recent call last):
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+[Main] Franka velocity servo stopped.
+    self.run()
+  File "/home/holabrb/miniforge3/envs/franka12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/holabrb/dtanrb/code/rebuild/franka_cosine.py", line 327, in _velocity_loop
+    state, duration = active.readOnce()
+                      ^^^^^^^^^^^^^^^^^
+pylibfranka._pylibfranka.ControlException: libfranka: Move command aborted: motion aborted by reflex! ["cartesian_motion_generator_acceleration_discontinuity", "cartesian_motion_generator_joint_acceleration_discontinuity"]
+[FrankaController] Native Cartesian velocity servo stopped
+[Main] Stopped
+(franka12) holabrb@franka:~/dtanrb/code/rebuild$
