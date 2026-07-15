@@ -1,0 +1,3 @@
+spacemouse_cosine is run good but be careful with the move down the Z, it is a little slow and low acceleration 
+
+- add the gripper when everything get better 
