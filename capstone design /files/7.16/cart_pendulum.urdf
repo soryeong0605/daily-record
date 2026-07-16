@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<robot name="cart_pendulum">
+
+  <!-- 월드 기준 고정 프레임 -->
+  <link name="world"/>
+
+  <!-- 카트 -->
+  <link name="cart">
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+   <visual>
+      <geometry><box size="0.3 0.2 0.1"/></geometry>
+      <material name="blue">
+        <color rgba="0.2 0.2 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry><box size="0.3 0.2 0.1"/></geometry>
+    </collision>
+  </link>
+
+  <!-- world -> cart : 레일 위에서 x축으로만 움직임 -->
+  <joint name="cart_joint" type="prismatic">
+    <parent link="world"/>
+    <child link="cart"/>
+    <origin xyz="0 0 1.0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-30" upper="30.0" effort="50" velocity="10"/>
+    <dynamics damping="5.0" friction="1.0"/>
+  </joint>
+
+  <!-- 진자(pole) -->
+  <link name="pole">
+    <inertial>
+      <origin xyz="0 0 0.25"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0084" iyy="0.0084" izz="0.0001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.25"/>
+      <geometry><cylinder radius="0.02" length="0.5"/></geometry>
+      <material name="red">
+        <color rgba="0.8 0.1 0.1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.25"/>
+      <geometry><cylinder radius="0.02" length="0.5"/></geometry>
+    </collision>
+  </link>
+
+  <!-- cart -> pole : 자유회전 (y축 기준, 중력방향으로 넘어짐) -->
+  <joint name="pole_joint" type="continuous">
+    <parent link="cart"/>
+    <child link="pole"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <!-- ===== ros2_control 인터페이스 ===== -->
+  <ros2_control name="CartPendulumSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="cart_joint">
+      <command_interface name="effort">
+        <param name="min">-50</param>
+        <param name="max">50</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+    <joint name="pole_joint">
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ===== Gazebo 플러그인: ros2_control 연결 ===== -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find cart_pendulum_sim)/config/cart_pendulum_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <!-- ===== Gazebo 물성치 ===== -->
+  <gazebo reference="cart">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <gazebo reference="pole">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+</robot>
