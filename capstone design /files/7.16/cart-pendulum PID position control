@@ -1,0 +1,17 @@
+ 카트진자 PID 위치 제어
+ 
+  가제보 켜는 법
+  source /opt/ros/humble/setup.bash
+source ~/ros2_ws/install/setup.bash
+cd ~/ros2_ws
+ros2 launch cart_pendulum_sim gazebo.launch.py
+
+가제보 끄는 법, 켜기 전에 한번 체크
+pkill -9 gzserver
+pkill -9 gzclient
+
+PID명령 듣게 하는 법 (새 터미널 창에서)
+ros2 topic pub --once /cart_target_position std_msgs/msg/Float64 "{data: -2.0}"
+
+원하는 위치제어 입력 주는 법
+ros2 topic pub --once /cart_target_position std_msgs/msg/Float64 "{data: -2.0}"
