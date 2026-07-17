@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<robot name="twip">
+
+  <!-- 월드 기준 고정 프레임 -->
+  <link name="world"/>
+
+  <!-- 바퀴 축 중심 (가상의 기준점) -->
+  <link name="base_link">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- world -> base_link : 바퀴반지름 높이에 고정 -->
+  <joint name="base_fixed_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ===== 몸체 (torso) ===== -->
+  <link name="torso">
+    <inertial>
+      <origin xyz="0 0 0.2"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.01" iyy="0.01" izz="0.005" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.2"/>
+      <geometry><box size="0.08 0.08 0.4"/></geometry>
+      <material name="green">
+        <color rgba="0.2 0.8 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.2"/>
+      <geometry><box size="0.08 0.08 0.4"/></geometry>
+    </collision>
+  </link>
+
+  <!-- base_link -> torso : 넘어지는 방향(y축 기준 회전) -->
+  <joint name="torso_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="torso"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ===== 왼쪽 바퀴 ===== -->
+  <link name="wheel_left">
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.001" iyy="0.002" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.1" length="0.03"/></geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.1" length="0.03"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="wheel_left_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_left"/>
+    <origin xyz="0 0.12 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ===== 오른쪽 바퀴 ===== -->
+  <link name="wheel_right">
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.001" iyy="0.002" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.1" length="0.03"/></geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.1" length="0.03"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="wheel_right_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_right"/>
+    <origin xyz="0 -0.12 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+<!-- ===== ros2_control 인터페이스 ===== -->
+  <ros2_control name="TwipSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="wheel_left_joint">
+      <command_interface name="effort">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="wheel_right_joint">
+      <command_interface name="effort">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="torso_joint">
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ===== Gazebo 플러그인: ros2_control 연결 ===== -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find cart_pendulum_sim)/config/twip_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <!-- ===== 바퀴 마찰 (지면 그립용, 중요!) ===== -->
+  <gazebo reference="wheel_left">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+  <gazebo reference="wheel_right">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <gazebo reference="torso">
+    <material>Gazebo/Green</material>
+  </gazebo>
+</robot>
