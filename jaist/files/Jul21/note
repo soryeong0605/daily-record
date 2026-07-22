@@ -1,5 +1,6 @@
 안전을 위해 교수님이 추가하라고 한 코드  
 
+이거는 클로드가 만든 코드
 from franka_control import FrankaController
 
 # 1. 로봇 연결
@@ -29,6 +30,8 @@ print(f"복귀 위치: {back[2]:.4f} (원래는 {start[2]:.4f}였음)")
 
 
 -----------------------------------  
+
+교수님이 만든 코드  
 def check_move_tcp_pose(robot, delta: float, target: np.ndarray, 
                         velocity: float, acceleration: float, reverse: bool = True):
     """Point-to-point Cartesian move (blocking) up by `delta` metres in Z, then back."""
