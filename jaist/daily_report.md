@@ -120,3 +120,5 @@ IK: PID가 계산한 보정된 목표를 찾아서 PWM 값을 뱉음
 
 4. "When you run, let run with a slow speed for testing first"
    → 실행할 때는 처음엔 느린 속도로 테스트하라 (안전 강조)
+**7월 22일**
+
