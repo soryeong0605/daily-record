@@ -1,1 +1,57 @@
+안전을 위해 교수님이 추가하라고 한 코드  
 
+from franka_control import FrankaController
+
+# 1. 로봇 연결
+franka = FrankaController(robot_ip="172.16.0.2", use_gripper=False)
+
+# 2. 이니셜 포지션 기록
+start = franka.get_tcp_pose()
+print(f"시작 위치: {start}")
+
+# 3. 살짝 위로 이동할 목표 계산 (2cm)
+target = start.copy()
+target[2] += 0.02   # z축(위쪽)으로 2cm
+
+# 4. 아주 느린 속도로 이동
+franka.move_tcp_pose(target, velocity=0.01, acceleration=0.01)
+
+# 5. 실제 도착했는지 확인
+reached = franka.get_tcp_pose()
+print(f"목표: {target[2]:.4f}  ->  실제 도착: {reached[2]:.4f}")
+
+# 6. 원래 자리로 복귀
+franka.move_tcp_pose(start, velocity=0.01, acceleration=0.01)
+back = franka.get_tcp_pose()
+print(f"복귀 위치: {back[2]:.4f} (원래는 {start[2]:.4f}였음)")  
+
+
+
+
+-----------------------------------  
+def check_move_tcp_pose(robot, delta: float, target: np.ndarray, 
+                        velocity: float, acceleration: float, reverse: bool = True):
+    """Point-to-point Cartesian move (blocking) up by `delta` metres in Z, then back."""
+    print("[5a/6] Testing move_tcp_pose (point-to-point) ...")
+    try:
+        start = robot.get_tcp_pose()
+        print(f"force = {robot.get_ee_wrench(frame='base')}")
+        if target is None:
+            target = start.copy()
+            target[2] += delta  # +Z, straight up
+        else:
+            assert target.shape == (6,), f"Expected (6,) target pose, got {target.shape}"
+            
+
+        robot.move_tcp_pose(target, velocity=velocity, acceleration=acceleration)
+        reached = robot.get_tcp_pose()
+        print(f"      Target Z {target[2]:.4f}  ->  reached Z {reached[2]:.4f}")
+        if reverse:
+            robot.move_tcp_pose(start, velocity=velocity, acceleration=acceleration)
+            back = robot.get_tcp_pose()
+            print(f"      Returned to Z {back[2]:.4f} (start was {start[2]:.4f})")
+        return True
+    except Exception as e:
+        print(f"      FAIL: {e}")
+        traceback.print_exc()
+        return False
