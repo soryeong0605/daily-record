@@ -108,20 +108,19 @@ IK: PID가 계산한 보정된 목표를 찾아서 PWM 값을 뱉음
 2)젠가처럼 가벼운 물건을 정교하게 원하는 위치에 두는 에피소드: 무거운 물체와 다르게 가벼운 물체를 잡을 경우 토크값의 변화가 미미할 것으로 보임. 그리고 물체가 무거워서 축 쳐지는 현상도 일어날 일 없으니 카메라 시야 밖으로 나갈 위험도 없어 보임. 대신 원하는 위치에 정교하게 물체를 놓아야 하므로 물체를 집은 이후에도 EE control이 정교하게 되어야할 것으로 보임.(즉 #2번의 2)의 정보를 미리 학습시킬 필요가 있음). 1의 에피소드와 반대되는 내용이 많아서 이렇게 두개의 에피소드를 학습시켜보면 좋을 것 같음  
 
 ** franka 구동할 때 조심해야하 할 것**  
-1. "You two just use these files as reference"
+"You two just use these files as reference"
    → 이 두 파일을 "참고자료"로 쓰라는 것 (그대로 다 쓰라는 게 아니라)
 
-2. "You can keep up with franky if you want or build your own control"
+"You can keep up with franky if you want or build your own control"
    → franky를 계속 써도 되고, 원하면 직접 컨트롤을 만들어도 된다 (선택권을 줌)
 
-3. "Let first add another function into your file that allows you to
+"Let first add another function into your file that allows you to
     retrieve the current tcp position"
    → 첫 번째 할 일: "지금 TCP(엔드이펙터) 위치를 가져오는 함수"를 파일에 추가하라
 
-4. "When you run, let run with a slow speed for testing first"
+"When you run, let run with a slow speed for testing first"
    → 실행할 때는 처음엔 느린 속도로 테스트하라 (안전 강조)
-
-    
+  
 **7월 22일**
 생각난 에피소드: 작은 치즈들은 습도 유지를 위해 엄청난게 뺵빽한 덱에 보관을 해야함. 심지어 그 치즈들은 자주 뒤집어주어야함. 치즈의 옆면을 잡은 후 franka EE 의 yaw contorl을 이용해 뒤집고 다시 넣기. soft gripper가 아니라 rigid 일 경우 치즈의 물렁한 정도에 따라 겉부분 파손이 일어나거나 모양의 변화가 생긱 수 있음. (치즈의 겉면을 왁스로 발라두기때문에 왁스의 파손이 일어날 수 있음)
 교수님의 추천 에피소드
