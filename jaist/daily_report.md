@@ -172,8 +172,38 @@ flow robot의 경우, optitrac을 이용한 PID제어를 운주가 해보고 있
 
 만약에 soft robot에서 PID제어를 한다고 치고 센서는 optitrac이라고 할 때 목표위치는 어떻게 잡는가? 현재 위치는 잡을 수 있는데 목표위치는 어떻게 설정하며 목표위치에 도달했다는것을 어떻게 인지할 수 있는가...  
 카메라는 몇대가 필요한가.. 모방학습을 위해 optitrac이 아니라 realsense 카메라를 사용하고싶은데 그렇다고 치면 몇대를 설치해야 모방학습에 필요한 정보가 될까  
-7/26  
+**7/26**  
 현재 코드의 문제점  
 tcp좌표가 뜨문뜨문하게 나오고 일정하게 나오지 않는다.  
 joint7의 yaw control 이 자꾸 간섭하여 teleop이 매끄럽지 않게 된다  
-7/
+**7/28**  
+libfranka를 사용했을 때 속도제어를 하면 tcp좌표를 바로바로 뱉지 않는 문제가 있었다. frnaky를 사용하니까 그 문제가 해결되긴 했지만 내 컴퓨터에 실시간성 패키지가 깔려있지 않아서 어려웠다.  
+그리고 지금까지 csv 파일을 이용해 데이터를 저장했는데 그 방식은 열에 제한이 있으니 좋지 않고 zarr에 저장할 것을 추천하셨다.  
+def save_episode(zarr_root, episode_data):
+    """Save episode to zarr"""
+    data_group = zarr_root['data']
+    meta_group = zarr_root['meta']
+
+    episode_ends = meta_group['episode_ends']
+    n_eps = episode_ends.shape[0]
+    if n_eps == 0:
+        current_len = 0
+    else:
+        current_len = int(episode_ends[n_eps - 1])
+    episode_len = episode_data['timestamp'].shape[0]
+    new_len = current_len + episode_len
+
+    # Save each data key
+    for key, value in episode_data.items():  
+이런식의 코드인데 여기 이미지 데이터도 저장할 수 있고, 모든 데이터를 저장할 수 있는 대신에 데이터 읽는것이 어려울 것이라고 말씀하셨다.  
+저 형태로 데이터를 저장하는 코드로 변경해봐야겠다.  
+현재 franky를 사용해 만든 코드는 대각선 방향으로 움직여도 속도가 일정하도록 속도정규화도 시켰고, yaw control 와 xyz움직임이 간섭하지 않도록 코드를 변경하였다.  
+또한 e를 누르면 에피소드 저장, q를 누르면 끝 하고 코드도 끝나게 수정해두었다. // franka관련은 여기까지 해두고  
+flow robot과 관련해서는 현재 내가 가지고 있는 코드는 피드포워드 코드이다. IK로 계산한 pwm값을 그냥 뱉을 뿐이고 피드백해서 위치보정을 하지 않는다. 옵티트랙카메라가 있긴한데 그거는 그냥 내 입력과 실제가 얼마나 가까운지 확인용일뿐 피드백을 위한 코드는 아니다.  
+flow robot의 기구학적 변수가 어떤게 있는지 자세히 좀 공부해보았다.  
+따라서 PID제어가 되도록 피드백 루프를 만들어보 예정이다.  
+또한 옵티트랙 캘리브레이션에 관련한 것들을 조금 공부해보았다.  
+일단 global cordinate에서 local로 좌표변환을 해야한다. 원점을 바꾸고 좌표변환행렬, 회전행렬로 축을 바꾸어준다.  
+신기한게 마커가 로봇의 베이스를 추정하는것이 아니라 pc좌표를 추정한다. 원점에는 따로 마커가 붙어있지 않은데, 처음에 global좌표계에서 pc를 인식하고 그 위 y좌표 얼마만큼 위에 p0가 있다고 추정한 후 그 값을 계산하여 p_rel=pw-po로 계산하는 것이다. 이때 Pw는 마커위치이고 po는 로봇 좌표계의 원점이다.  
+현재 flowbot_teleop 코드 실행하면,  
+로봇 모델 초기화 -> 초기 자세로 이동 -> workspace 계산 -> optirac연결.. 아무튼 이거 완전 피드 포워드임. 정확성을 위해서 피드백 제어로 가야함
