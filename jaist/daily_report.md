@@ -176,3 +176,4 @@ flow robot의 경우, optitrac을 이용한 PID제어를 운주가 해보고 있
 현재 코드의 문제점  
 tcp좌표가 뜨문뜨문하게 나오고 일정하게 나오지 않는다.  
 joint7의 yaw control 이 자꾸 간섭하여 teleop이 매끄럽지 않게 된다  
+7/
