@@ -1,1 +1,1021 @@
 
+[Franka][LOOP] 최근 200회 평균: 938.4Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.0Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 959.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.5Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 933.2Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 946.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 949.1Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.0Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 936.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 947.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.7Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 932.3Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 962.3Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 944.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 942.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 940.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.6Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka] 1번 버튼 감지 -> 정지 후 flowbot으로 전환 준비
+[Franka] 정지 확인됨 -> flowbot 모드로 전환
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+SpaceMouse connected (libspnav)
+[Main] flowbot active -> SpaceMouse 여는 중...
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[Main] 1+14 동시 감지 -> release (굽은 상태 유지, 흡착만 해제)
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 25 0 8
+[PYTHON] Sent: 24 0 7
+[PYTHON] Sent: 24 0 7
+[PYTHON] Sent: 23 0 7
+[PYTHON] Sent: 22 0 7
+[PYTHON] Sent: 20 0 7
+[PYTHON] Sent: 19 0 6
+[PYTHON] Sent: 17 0 6
+[PYTHON] Sent: 16 0 6
+[PYTHON] Sent: 14 0 6
+[PYTHON] Sent: 13 0 6
+[PYTHON] Sent: 12 1 6
+[PYTHON] Sent: 10 1 7
+[PYTHON] Sent: 9 0 6
+[PYTHON] Sent: 7 0 4
+[PYTHON] Sent: 5 0 2
+[PYTHON] Sent: 4 0 0
+[PYTHON] Sent: 2 0 0
+[PYTHON] Sent: 2 0 0
+[PYTHON] Sent: 1 0 0
+[PYTHON] Sent: 1 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[Main] 1번 버튼(단독) 감지 -> franka로 전환 (flowbot 상태 유지)
+SpaceMouse disconnected
+[Franka] Plot log -> sessions/session_20260825_155626.csv
+[Franka] active -> SpaceMouse 여는 중...
+UniversalReceiver found
+[Franka] SpaceMouse connected
+[Franka][LOOP] 최근 200회 평균: 966.3Hz (avg_dt=1.03ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 970.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.5Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 955.4Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 931.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.0Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.9Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 929.7Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 929.4Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.0Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 962.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.4Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 928.6Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 948.1Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.8Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 930.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.3Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 931.2Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 955.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 953.2Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.9Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.7Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 963.0Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 932.7Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 947.9Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 935.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.1Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 944.1Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 959.4Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.6Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 941.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 929.8Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 935.7Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 925.6Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 936.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 930.2Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 960.5Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.7Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 925.3Hz (avg_dt=1.08ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 955.6Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.1Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 953.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 961.3Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 929.2Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 959.3Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 953.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 952.6Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 956.4Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 950.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 943.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.4Hz (avg_dt=1.05ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 966.7Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 956.7Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 956.4Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Logger] 카메라 초기화 대기 중... (준비되면 자동으로 기록 시작)
+[Camera] 초기화 중...
+[Franka][STALL] 루프 지연 감지: 208.5ms (정상이면 수 ms 이내여야 함 -- GIL 경쟁/스케줄링 지연 의심)
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/home/holabrb/miniforge3/lib/python3.13/threading.py", line 1044, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/holabrb/Desktop/franka_soryeong(4)/franka_soryeong/combined_teleop/tasks/camera_task.py", line 75, in run
+    self._start_pipelines()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+[Franka][STALL] 루프 지연 감지: 15281.6ms (정상이면 수 ms 이내여야 함 -- GIL 경쟁/스케줄링 지연 의심)
+  File "/home/holabrb/Desktop/franka_soryeong(4)/franka_soryeong/combined_teleop/tasks/camera_task.py", line 49, in _start_pipelines
+    pipeline.start(config)
+    ~~~~~~~~~~~~~~^^^^^^^^
+RuntimeError: No device connected
+[Franka][LOOP] 최근 200회 평균: 12.7Hz (avg_dt=78.64ms, max_dt=15281.6ms)
+[Franka][LOOP] 최근 200회 평균: 964.3Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 969.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 966.0Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 964.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 931.4Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 965.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 955.6Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 963.6Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 960.1Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 950.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.0Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 944.2Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.9Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 947.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 960.7Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 975.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.9Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.4Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.0Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 950.7Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.6Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 933.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka] 1번 버튼 감지 -> 정지 후 flowbot으로 전환 준비
+[Franka] 정지 확인됨 -> flowbot 모드로 전환
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+SpaceMouse connected (libspnav)
+[Main] flowbot active -> SpaceMouse 여는 중...
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 2 0
+[PYTHON] Sent: 0 3 0
+[PYTHON] Sent: 0 3 0
+[PYTHON] Sent: 0 3 0
+[PYTHON] Sent: 0 3 0
+[PYTHON] Sent: 0 1 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 1 0 0
+[PYTHON] Sent: 2 0 0
+[PYTHON] Sent: 3 0 0
+[PYTHON] Sent: 4 0 0
+[PYTHON] Sent: 5 0 0
+[PYTHON] Sent: 6 0 0
+[PYTHON] Sent: 7 0 0
+[PYTHON] Sent: 9 0 0
+[PYTHON] Sent: 10 0 0
+[PYTHON] Sent: 10 0 0
+[PYTHON] Sent: 10 0 0
+[PYTHON] Sent: 11 0 0
+[PYTHON] Sent: 11 0 0
+[PYTHON] Sent: 13 0 0
+[PYTHON] Sent: 13 0 0
+[PYTHON] Sent: 14 0 0
+[PYTHON] Sent: 15 0 0
+[PYTHON] Sent: 16 0 0
+[PYTHON] Sent: 17 0 0
+[PYTHON] Sent: 18 0 0
+[PYTHON] Sent: 19 0 0
+[PYTHON] Sent: 20 0 0
+[PYTHON] Sent: 21 0 0
+[PYTHON] Sent: 22 0 0
+[PYTHON] Sent: 23 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[Main] 1번 버튼(단독) 감지 -> franka로 전환 (flowbot 상태 유지)
+SpaceMouse disconnected
+[Franka] Plot log -> sessions/session_20260825_155724.csv
+[Franka] active -> SpaceMouse 여는 중...
+UniversalReceiver found
+[Franka] SpaceMouse connected
+[Franka][LOOP] 최근 200회 평균: 970.0Hz (avg_dt=1.03ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 970.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.3Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 964.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 958.3Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.6Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 942.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.6Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 954.7Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka] 저속모드 ON (0.01 m/s)
+[Franka][LOOP] 최근 200회 평균: 953.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 930.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.5Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.1Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.1Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 941.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 958.8Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 964.8Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.5Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 946.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 952.2Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.6Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 957.8Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 942.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.7Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 966.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.9Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.9Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 964.6Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 973.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 950.7Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 925.5Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 970.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 926.9Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 952.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 949.8Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 929.7Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 930.9Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 963.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.0Hz (avg_dt=1.07ms, max_dt=1.4ms)
+[Franka][LOOP] 최근 200회 평균: 951.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 927.5Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 928.6Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 935.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 927.8Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.2Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 953.7Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.4Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.3Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.5Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 940.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 962.2Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 936.3Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 944.4Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 939.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 966.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.5Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 940.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 975.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 943.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 976.3Hz (avg_dt=1.02ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 963.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 961.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.4Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 942.5Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 939.0Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 949.2Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 940.7Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 952.9Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 950.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.9Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.4Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 947.9Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 938.4Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.3Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 940.5Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 950.5Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 941.9Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 971.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.3Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.1Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 949.2Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.5Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 952.4Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.4Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.5Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 935.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 954.0Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 965.1Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 940.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 954.6Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 932.5Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 939.3Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 943.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 955.1Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.5Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 948.3Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.5Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 936.3Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 938.7Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 953.3Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 931.1Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka] 1번 버튼 감지 -> 정지 후 flowbot으로 전환 준비
+[Franka] 정지 확인됨 -> flowbot 모드로 전환
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+SpaceMouse connected (libspnav)
+[Main] flowbot active -> SpaceMouse 여는 중...
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[PYTHON] Sent: 25 0 0
+[Main] 14번 버튼(단독) 감지 -> PWM (0,0,0)으로 압력 해제
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 25 25 25
+[PYTHON] Sent: 25 25 25
+[PYTHON] Sent: 25 25 25
+[PYTHON] Sent: 24 24 24
+[PYTHON] Sent: 23 23 23
+[PYTHON] Sent: 21 21 21
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 18 18 18
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 17 17 17
+[PYTHON] Sent: 19 19 19
+[PYTHON] Sent: 21 21 21
+[PYTHON] Sent: 23 23 23
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 26 26 26
+[PYTHON] Sent: 25 25 25
+[PYTHON] Sent: 24 24 24
+[PYTHON] Sent: 23 23 23
+[PYTHON] Sent: 23 23 23
+[PYTHON] Sent: 23 23 23
+[PYTHON] Sent: 23 23 23
+[PYTHON] Sent: 22 22 22
+[PYTHON] Sent: 22 22 22
+[PYTHON] Sent: 22 22 22
+[PYTHON] Sent: 22 22 22
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[Main] 1번 버튼(단독) 감지 -> franka로 전환 (flowbot 상태 유지)
+SpaceMouse disconnected
+[Franka] Plot log -> sessions/session_20260825_155819.csv
+[Franka] active -> SpaceMouse 여는 중...
+UniversalReceiver found
+[Franka] SpaceMouse connected
+[Franka][LOOP] 최근 200회 평균: 959.6Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 971.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 962.1Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 933.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 933.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 949.1Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 930.7Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 929.7Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 932.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.5Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 928.7Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 944.3Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 936.8Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 953.2Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.0Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 952.9Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.5Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.2Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 943.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 973.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.7Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 968.9Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 952.2Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 964.2Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 937.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 961.8Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 943.0Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 924.0Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 965.1Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.9Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 943.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka] 1번 버튼 감지 -> 정지 후 flowbot으로 전환 준비
+[Franka] 정지 확인됨 -> flowbot 모드로 전환
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+SpaceMouse connected (libspnav)
+[Main] flowbot active -> SpaceMouse 여는 중...
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 20 20 20
+[PYTHON] Sent: 21 20 20
+[PYTHON] Sent: 21 20 20
+[PYTHON] Sent: 21 20 20
+[PYTHON] Sent: 21 20 20
+[PYTHON] Sent: 21 20 20
+[PYTHON] Sent: 21 20 20
+[PYTHON] Sent: 22 20 20
+[PYTHON] Sent: 22 20 20
+[PYTHON] Sent: 22 20 20
+[PYTHON] Sent: 23 19 19
+[PYTHON] Sent: 24 19 19
+[PYTHON] Sent: 25 18 19
+[PYTHON] Sent: 25 18 19
+[PYTHON] Sent: 25 17 18
+[PYTHON] Sent: 24 16 17
+[PYTHON] Sent: 24 14 16
+[PYTHON] Sent: 24 14 16
+[PYTHON] Sent: 25 14 16
+[PYTHON] Sent: 26 14 16
+[PYTHON] Sent: 25 13 15
+[PYTHON] Sent: 25 11 14
+[PYTHON] Sent: 24 9 13
+[PYTHON] Sent: 23 8 12
+[PYTHON] Sent: 24 8 12
+[PYTHON] Sent: 25 8 12
+[PYTHON] Sent: 26 8 12
+[PYTHON] Sent: 26 7 12
+[PYTHON] Sent: 25 6 11
+[PYTHON] Sent: 25 5 10
+[PYTHON] Sent: 24 4 9
+[PYTHON] Sent: 25 4 9
+[PYTHON] Sent: 26 4 9
+[PYTHON] Sent: 26 3 9
+[PYTHON] Sent: 26 3 9
+[PYTHON] Sent: 26 3 9
+[PYTHON] Sent: 26 3 9
+[PYTHON] Sent: 26 3 9
+[PYTHON] Sent: 25 2 8
+[PYTHON] Sent: 25 0 7
+[PYTHON] Sent: 24 0 5
+[PYTHON] Sent: 25 0 5
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[Main] 1번 버튼(단독) 감지 -> franka로 전환 (flowbot 상태 유지)
+SpaceMouse disconnected
+[Franka] Plot log -> sessions/session_20260825_155839.csv
+[Franka] active -> SpaceMouse 여는 중...
+UniversalReceiver found
+[Franka] SpaceMouse connected
+[Franka][LOOP] 최근 200회 평균: 967.9Hz (avg_dt=1.03ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 967.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.1Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 944.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.9Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 953.3Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 964.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 950.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.9Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 957.3Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 973.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.4Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 971.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 930.2Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 931.4Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 925.5Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 938.6Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 960.7Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.7Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka] 저속모드 ON (0.01 m/s)
+[Franka] 1번 버튼 감지 -> 정지 후 flowbot으로 전환 준비
+[Franka] 정지 확인됨 -> flowbot 모드로 전환
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+SpaceMouse connected (libspnav)
+[Main] flowbot active -> SpaceMouse 여는 중...
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[Main] 1번 버튼(단독) 감지 -> franka로 전환 (flowbot 상태 유지)
+SpaceMouse disconnected
+[Franka] Plot log -> sessions/session_20260825_155847.csv
+[Franka] active -> SpaceMouse 여는 중...
+UniversalReceiver found
+[Franka] SpaceMouse connected
+[Franka][LOOP] 최근 200회 평균: 972.1Hz (avg_dt=1.03ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 944.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 958.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 947.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka] 1번 버튼 감지 -> 정지 후 flowbot으로 전환 준비
+[Franka] 저속모드 ON (0.01 m/s)
+[Franka] 정지 확인됨 -> flowbot 모드로 전환
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+SpaceMouse connected (libspnav)
+[Main] flowbot active -> SpaceMouse 여는 중...
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[Main] 1+14 동시 감지 -> release (굽은 상태 유지, 흡착만 해제)
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 26 0 6
+[PYTHON] Sent: 25 0 6
+[PYTHON] Sent: 25 0 5
+[PYTHON] Sent: 24 0 5
+[PYTHON] Sent: 23 0 5
+[PYTHON] Sent: 22 0 5
+[PYTHON] Sent: 21 0 4
+[PYTHON] Sent: 21 0 4
+[PYTHON] Sent: 20 0 4
+[PYTHON] Sent: 20 0 4
+[PYTHON] Sent: 19 0 4
+[PYTHON] Sent: 19 0 4
+[PYTHON] Sent: 18 0 4
+[PYTHON] Sent: 18 0 4
+[PYTHON] Sent: 17 0 4
+[PYTHON] Sent: 17 0 4
+[PYTHON] Sent: 16 0 4
+[PYTHON] Sent: 15 0 3
+[PYTHON] Sent: 14 0 2
+[PYTHON] Sent: 13 0 1
+[PYTHON] Sent: 12 0 0
+[PYTHON] Sent: 11 0 0
+[PYTHON] Sent: 10 0 0
+[PYTHON] Sent: 9 0 0
+[PYTHON] Sent: 8 0 0
+[PYTHON] Sent: 8 0 0
+[PYTHON] Sent: 6 0 0
+[PYTHON] Sent: 5 0 0
+[PYTHON] Sent: 3 0 0
+[PYTHON] Sent: 2 0 0
+[PYTHON] Sent: 1 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[PYTHON] Sent: 0 0 0
+[Main] 1번 버튼(단독) 감지 -> franka로 전환 (flowbot 상태 유지)
+SpaceMouse disconnected
+[Franka] Plot log -> sessions/session_20260825_155859.csv
+[Franka] active -> SpaceMouse 여는 중...
+UniversalReceiver found
+[Franka] SpaceMouse connected
+[Franka][LOOP] 최근 200회 평균: 968.7Hz (avg_dt=1.03ms, max_dt=1.3ms)
+[Franka][LOOP] 최근 200회 평균: 965.3Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.8Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 959.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 963.8Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 928.7Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 924.8Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 970.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 940.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 928.8Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 948.6Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 952.1Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.2Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 971.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.1Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 937.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 959.2Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.8Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.1Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.3Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 964.2Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.4Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 945.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 936.3Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.0Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 975.4Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 958.9Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 950.6Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 928.5Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 931.8Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 954.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.9Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.0Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.9Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 938.5Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 954.9Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 934.2Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 953.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.9Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 943.8Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 953.8Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.3Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.0Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 954.1Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 959.5Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 960.9Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 945.2Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 958.8Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 968.3Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 968.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.7Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 972.5Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 975.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 961.0Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 947.9Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.7Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 929.2Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 931.0Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 928.5Hz (avg_dt=1.08ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.0Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 974.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 938.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.5Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 942.3Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 940.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.0Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 960.5Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 950.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 955.4Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 941.8Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 932.2Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 931.1Hz (avg_dt=1.07ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 956.2Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 960.7Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 948.9Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.7Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.5Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 943.9Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 939.1Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 933.1Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 964.7Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.2Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 948.1Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 962.4Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 969.1Hz (avg_dt=1.03ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 959.2Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 946.6Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 968.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.2Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 963.9Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.5Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 970.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.6Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 971.1Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 972.9Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 951.2Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 969.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 967.3Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 929.4Hz (avg_dt=1.08ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 953.1Hz (avg_dt=1.05ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 973.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 954.8Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 942.4Hz (avg_dt=1.06ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 935.3Hz (avg_dt=1.07ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 961.7Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 974.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 973.7Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 948.7Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 960.6Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 947.7Hz (avg_dt=1.06ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 958.2Hz (avg_dt=1.04ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.2Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 967.8Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 965.5Hz (avg_dt=1.04ms, max_dt=1.2ms)
+[Franka][LOOP] 최근 200회 평균: 974.0Hz (avg_dt=1.03ms, max_dt=1.1ms)
+[Franka][LOOP] 최근 200회 평균: 956.6Hz (avg_dt=1.05ms, max_dt=1.1ms)
+[Franka] SpaceMouse 닫음 (flowbot 차례)
+[PYTHON] Sent: 0 0 0
+Closed serial. Exited.
+(base) holabrb@franka:~/Desktop/franka_soryeong(4)/franka_soryeong/combined_teleop$ 
