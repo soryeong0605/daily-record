@@ -1,5 +1,6 @@
 # daily-record
-기록용용용
+기록용용용  
+logger_task = LoggerTask(shared, output_dir="/media/holabrb/외장하드이름/episodes")
 안녕
 function v_ref = smooth_accel(v_target)
   
